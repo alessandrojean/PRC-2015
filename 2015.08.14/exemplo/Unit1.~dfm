@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 192
+  Top = 124
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 376
+  ClientWidth = 409
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 409
+    Height = 377
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BiDiMode = bdLeftToRight
+    BorderStyle = bsNone
+    ParentBiDiMode = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 824
+    Top = 552
+    object Arquivo1: TMenuItem
+      Caption = 'Arquivo'
+      object Novo1: TMenuItem
+        Caption = 'Novo'
+      end
+      object Abrir1: TMenuItem
+        Caption = 'Abrir'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Salvar1: TMenuItem
+        Caption = 'Salvar'
+      end
+      object SalvarComo1: TMenuItem
+        Caption = 'Salvar Como...'
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+        OnClick = Sair1Click
+      end
+    end
+    object Editar1: TMenuItem
+      Caption = 'Editar'
+      object Fonte1: TMenuItem
+        Caption = 'Fonte'
+      end
+      object Cor1: TMenuItem
+        Caption = 'Cor'
+      end
+      object CorFundo1: TMenuItem
+        Caption = 'Cor Fundo'
+      end
+    end
+    object Help1: TMenuItem
+      Caption = 'Help'
+    end
+  end
+end

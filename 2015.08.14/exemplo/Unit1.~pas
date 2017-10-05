@@ -1,0 +1,46 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    Arquivo1: TMenuItem;
+    Novo1: TMenuItem;
+    Abrir1: TMenuItem;
+    Salvar1: TMenuItem;
+    SalvarComo1: TMenuItem;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    Sair1: TMenuItem;
+    Editar1: TMenuItem;
+    Fonte1: TMenuItem;
+    Cor1: TMenuItem;
+    CorFundo1: TMenuItem;
+    Help1: TMenuItem;
+    Memo1: TMemo;
+    procedure Sair1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Sair1Click(Sender: TObject);
+begin
+if Messagedlg('Confirma Saída?',mtConfirmation,[mbyes,mbno],0)=mryes then
+close;
+end;
+
+end.

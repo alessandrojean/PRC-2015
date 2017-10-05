@@ -1,0 +1,114 @@
+object Form1: TForm1
+  Left = 192
+  Top = 124
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Vendas com parcela'
+  ClientHeight = 226
+  ClientWidth = 266
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 71
+    Height = 13
+    Caption = 'Qtde. Vendida:'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 32
+    Width = 70
+    Height = 13
+    Caption = 'Pre'#231'o Unit'#225'rio:'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 176
+    Width = 71
+    Height = 13
+    Caption = 'Valor Total: R$'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 200
+    Width = 124
+    Height = 13
+    Caption = 'Valor de cada parcela: R$'
+  end
+  object Edit1: TEdit
+    Left = 136
+    Top = 8
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 136
+    Top = 32
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 24
+    Top = 64
+    Width = 233
+    Height = 73
+    Caption = 'NN'#186' de Parcelas'
+    Columns = 2
+    Items.Strings = (
+      'a vista'
+      '2 vezes'
+      '3 vezes'
+      '4 vezes')
+    TabOrder = 2
+  end
+  object Edit3: TEdit
+    Left = 136
+    Top = 176
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    Left = 136
+    Top = 200
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 24
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 104
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Limpar'
+    TabOrder = 6
+  end
+  object Button3: TButton
+    Left = 184
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'Sair'
+    TabOrder = 7
+  end
+end
