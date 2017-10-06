@@ -1,4 +1,5 @@
 # PRC-2015
+![Year](https://img.shields.io/badge/year-2015-blue.svg) ![Last class](https://img.shields.io/badge/last_class-2015.10.09-green.svg) ![Language](https://img.shields.io/badge/language-Pascal-yellow.svg) ![IDE](https://img.shields.io/badge/IDE-Delphi_7-orange.svg)
 
 Simple repository for the algorithms written in the classes of "Programação de Computadores", in Pascal language, using Delphi 7.
 
